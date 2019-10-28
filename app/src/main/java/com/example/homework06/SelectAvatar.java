@@ -31,6 +31,7 @@ public class SelectAvatar extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_select_avatar, container, false);
+        getActivity().setTitle("Select Avatar");
         view.findViewById(R.id.iv_avatar_f_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

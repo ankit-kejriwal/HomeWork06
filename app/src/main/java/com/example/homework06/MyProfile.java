@@ -126,6 +126,7 @@ public class MyProfile extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_my_profile, container, false);
+        getActivity().setTitle("My Profile");
         editTextfname = view.findViewById(R.id.et_firstname);
         editTextlname = view.findViewById(R.id.et_lastname);
         editTextsid = view.findViewById(R.id.et_id);

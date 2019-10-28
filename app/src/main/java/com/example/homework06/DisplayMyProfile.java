@@ -41,6 +41,7 @@ public class DisplayMyProfile extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_display_my_profile, container, false);
+        getActivity().setTitle("My Profile");
         imageView = view.findViewById(R.id.iv_my_avatar);
         textViewName = view.findViewById(R.id.tv_fullname);
         textViewsid = view.findViewById(R.id.tv_id);
